@@ -1,0 +1,53 @@
+/* src/components/QuizApp.css */
+
+.quiz-container {
+    display: flex;
+    flex-direction: column; /* Arrange boxes vertically */
+    align-items: center; /* Center align items horizontally */
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .quiz-box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px; /* Increased margin between boxes */
+  }
+  
+  .quiz-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quiz-box h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .quiz-box p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  .start-quiz-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-right: 10px; /* Add spacing between buttons */
+  }
+
+  .start-quiz-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
